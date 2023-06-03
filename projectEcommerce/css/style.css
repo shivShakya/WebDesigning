@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+   
+    background: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;  
+  
+    
+}
+nav{
+    display: flex;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo img{
+    width : 88px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(230, 14, 14);
+    font-style: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+
+}
+#search{
+    width: 500px;
+    height: 25px;
+   border-radius: 3px;
+   margin: 0 20px;
+   background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+   padding-right: 80px;
+   background-size: 28px;
+   background-color: white;
+   font-family: 'Lato', sans-serif;  
+}
+
+.btn{
+    color: #2874f0;
+    font-weight: 800;
+    background-color: #fff;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.ads_sponsors div {
+	width:110vh;
+    margin:0 auto;
+    margin: 12px auto;
+
+}
+.ads_sponsors div img{
+    width:900px;
+	height:300px;
+}
+
+.card{
+   
+    max-width: 95vw;
+    margin: auto;
+   
+}
+.cards{
+    display: flex;
+}
+.card-item img{
+    width: 160px;
+    height: 160px;
+    margin: 0px 18px;
+}
+.card-item{
+    display: inline-flex; 
+    flex-direction: column;
+    width: 200px;
+    margin: 30px 15px;
+   
+}
+
+.my-2{
+   
+   margin: 0px 0 ;
+}
+
+.my-1{
+    margin: 12px 0;
+}
+.text-center{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    
+    
+}
+
+footer{
+   
+    height:12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;   
+}

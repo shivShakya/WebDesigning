@@ -1,0 +1,40 @@
+
+.form_design{
+    margin: 240px 360px;
+  
+    list-style: none;
+    background-color: aqua;
+}
+
+.form_design_1{
+    display: flex;
+    justify-content: center;
+}
+.form_design_2{
+    display: flex;
+    justify-content: center;
+    padding: 37px 40px;
+}
+.form_design_3{
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.form_design_4{
+    padding: 0px 40px;
+}
+
+.in_design_4{
+    padding: 0px 65px;
+    margin: 35px 160px;
+}
+.in_design_5{
+    margin: 0px 270px;
+    color: azure;
+    background-color: black;
+}
+
+.form_input{
+    padding: 0px 30px;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: black;
+     color: white;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     width: 800px;
+     height: 80px;
+     padding: 0px 0px;
+     margin: 200px 200px;
+}
+
+.btn{
+    align-items: center;
+
+}
+
